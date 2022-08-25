@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Practicing with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created as a way for me to go over the foundamentals of react. In it I am practicing how to make different components as well as different ways to improve projects.
 
-## Available Scripts
+## Currently Practicing
+I will begin working on more complex react projects
+### React Counter
 
-In the project directory, you can run:
+ Currently My goal was to make a standard counter application. I realize its a standard beginner project , but it is important to build up what you know from scratch.
+
+
+ ## Other Useful info when running project 
 
 ### `npm start`
 

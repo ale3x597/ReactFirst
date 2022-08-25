@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 import React, {Component} from 'react';
+import FirstComponent from './Components/examples/FirstComponent';
+import SecondComp from './Components/examples/SecondComponent';
+import ThirdComp from './Components/examples/ThirdComponent';
+import Counter from './Components/CounterComponents/Counter';
 
 /*function App() {   
   return (  
@@ -12,24 +16,38 @@ import React, {Component} from 'react';
 class App extends Component {
   render (){
     return (
-      
+
     <div className="App">
-      <header className="App-header">
+   
+    <Counter/>
+
+    </div>
+    
+  );
+}
+}
+//have to include class in App class to render it 
+// to render practice just add  <PracticeComponents></PracticeComponents> to App Class
+class PracticeComponents extends Component {
+  render (){
+    return(
+      <div ClassName ="Practice">
+        <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           HEllo World!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      
+       <FirstComponent></FirstComponent>
+       <SecondComp></SecondComp>
+       <ThirdComp></ThirdComp>
+      </header> 
+      </div>
+    )
+  }
 }
-}
+
+
+
+
 export default App;
